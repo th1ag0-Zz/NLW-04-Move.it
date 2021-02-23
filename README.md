@@ -1,4 +1,8 @@
-<h1 align="center">Move.it</h1>
+<h1 align="center">Move.it :running:</h1>
+
+<p align="center">
+  <img src="./.github/home.svg" />
+</p>
 
 # :pushpin: Tabela de conteúdos
 
@@ -6,7 +10,7 @@
 * [Layout](#panda_face-layout)
 * [Tecnologias](#snowflake-tecnologias)
 * [Como rodar o projeto](#question-como-rodar-o-projeto)
-* [License](#closed_book-license)
+* [Autor](#closed_book-autor)
 
 ---
 # :satisfied: Sobre o projeto
@@ -18,6 +22,7 @@ O projeto Move.it, desenvolvido durante a quarta edição da NextLevelWeek by [R
 
 ---
 # :snowflake: Tecnologias
+* [TypeScript](https://www.typescriptlang.org/)
 * [React](https://pt-br.reactjs.org/)
 * [NextJs](https://nextjs.org/)
 
@@ -47,7 +52,10 @@ yarn start
 4. Por fim, abra a pasta clonada em seu editor de códigos favorito e faça as suas alterações! xD
 
 ---
-# :closed_book: License
-Released in 2021. This project is under the MIT license.
-
+# :closed_book: Autor
 Feito por [Thiago Silva](https://github.com/th1ag0-Zz).
+## :octocat: Github: https://github.com/th1ag0-Zz
+## :link: LinkedIn: https://www.linkedin.com/in/thiago-furtado-silva/
+## :camera: Instagram: https://www.instagram.com/thiag0_dev/
+## :mailbox: Gmail: thiagof89.tf@gmail.com
+## :rocket: Rocketseat: https://app.rocketseat.com.br/me/thiago-furtado-1575175681
