@@ -54,8 +54,8 @@ yarn start
 ---
 # :closed_book: Autor
 Feito por [Thiago Silva](https://github.com/th1ag0-Zz).
-## :octocat: Github: https://github.com/th1ag0-Zz
-## :link: LinkedIn: https://www.linkedin.com/in/thiago-furtado-silva/
-## :camera: Instagram: https://www.instagram.com/thiag0_dev/
-## :mailbox: Gmail: thiagof89.tf@gmail.com
-## :rocket: Rocketseat: https://app.rocketseat.com.br/me/thiago-furtado-1575175681
+### :octocat: Github: https://github.com/th1ag0-Zz
+### :link: LinkedIn: https://www.linkedin.com/in/thiago-furtado-silva/
+### :camera: Instagram: https://www.instagram.com/thiag0_dev/
+### :mailbox: Gmail: thiagof89.tf@gmail.com
+### :rocket: Rocketseat: https://app.rocketseat.com.br/me/thiago-furtado-1575175681
