@@ -23,11 +23,11 @@ O projeto Move.it, desenvolvido durante a quarta edição da NextLevelWeek by [R
 
 ---
 # :question: Como rodar o projeto
-## Acessando direto pela site:
+## Acessando direto pelo site:
 * Você pode clicar nesse [link](http://move-it-th1ag0-zz.vercel.app/) e acessar a aplicação que está hospedada na plataforma da Vercel.
 
 ## Rodando na máquina local:
-(certifique-se de ter instalado na sua máquina o [Node](https://nodejs.org/en/), [Npm](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/))
+(certifique-se de ter instalado na sua máquina o [Node](https://nodejs.org/en/) e o [Yarn](https://yarnpkg.com/))
 1. Abra o terminal na pasta desejada para clonar o repositório e execute o comando:
 ``` bash
 git clone https://github.com/th1ag0-Zz/NLW-04-Move.it.git
@@ -36,14 +36,15 @@ git clone https://github.com/th1ag0-Zz/NLW-04-Move.it.git
 ``` bash
 cd NLW-04_Move.it/
 ```
+Para instalar as dependencias:
+``` bash
+yarn
+```
+Inciando o server:
 ``` bash
 yarn start
 ```
-Ou se você usa o Npm
-``` bash
-npm run start
-```
-4. Por fim, abra a pasta clonada em seu editor de códigos favorito e faça as suas alterações xD
+4. Por fim, abra a pasta clonada em seu editor de códigos favorito e faça as suas alterações! xD
 
 ---
 # :closed_book: License
