@@ -3,6 +3,18 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/csorlandi">
+    <img alt="Made by Thiago Silva" src="https://img.shields.io/badge/made%20by-Thiago%20Silva-5965e0">
+  </a>
+
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/th1ag0-Zz/NLW-04-Move.it?color=rgb(89,101,224)">
+
+  <img alt="Contributors" src="https://img.shields.io/github/contributors/th1ag0-Zz/NLW-04-Move.it?color=rgb(89,101,224)">
+
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361?color=rgb(89,101,224)">
+</p>
+
+<p align="center">
   <img src="./.github/home.svg" />
 </p>
 
