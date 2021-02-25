@@ -1,4 +1,6 @@
-<h1 align="center">Move.it :running:</h1>
+<p align="center">
+  <img src="./public/logo-full.svg" />
+</p>
 
 <p align="center">
   <img src="./.github/home.svg" />
