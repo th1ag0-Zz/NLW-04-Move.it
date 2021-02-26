@@ -18,6 +18,16 @@ export function Countdown() {
   const [minuteLeft, minuteRight] = String(minutes).padStart(2, '0').split('')
   const [secondLeft, secondRight] = String(seconds).padStart(2, '0').split('')
 
+  const [isHover, setIsHover] = useState(false)
+
+  function Over() {
+    setIsHover(true)
+  }
+
+  function Out() {
+    setIsHover(false)
+  }
+
   return (
     <div>
 
@@ -41,6 +51,7 @@ export function Countdown() {
           className={styles.countdownButton}
         >
           Ciclo encerrado
+          <img src="/icons/completed.svg" />
         </button>
       ) : (
         <>
@@ -48,9 +59,17 @@ export function Countdown() {
             <button
               onClick={resetCountdown}
               type="button"
-              className={styles.countdownButtonActive}
+              className={`${styles.countdownButtonActive} ${styles.countdownButtonFinished}`}
+              onMouseOver={Over}
+              onMouseOut={Out}
             >
               Abandonar ciclo
+              {isHover ? (  
+                <img src="/icons/cancel-white.svg" alt=""/>
+              ) : (
+                <img src="/icons/cancel.svg" alt=""/>
+              )}
+              
             </button>
           ) : (
             <button
@@ -59,6 +78,7 @@ export function Countdown() {
               className={styles.countdownButton}
             >
               Iniciar um ciclo
+              <img src="/icons/play_arrow.svg" alt=""/>
             </button>
           ) }
         </>
