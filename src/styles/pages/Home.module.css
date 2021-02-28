@@ -14,3 +14,19 @@
   gap: 6.25rem;
   align-content: center;
 }
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 480px;
+  }
+
+  .container section {
+    display: flex;
+    flex-direction: column;
+    gap: 3.8rem;
+  }
+
+  .container section > div:last-child {
+    margin-bottom: 2rem;
+  }
+}
