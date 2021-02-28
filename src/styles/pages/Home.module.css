@@ -24,9 +24,16 @@
     display: flex;
     flex-direction: column;
     gap: 3.8rem;
+    justify-content: center;
   }
 
   .container section > div:last-child {
-    margin-bottom: 2rem;
+    margin-bottom: 1.8rem;
+  }
+}
+
+@media (min-height: 920px) {
+  .container section {
+    gap: 5.4rem;
   }
 }
