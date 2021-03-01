@@ -33,6 +33,7 @@ O projeto Move.it, desenvolvido durante a quarta edição da NextLevelWeek by [R
 ---
 # :panda_face: Layout
 * [Figma](https://www.figma.com/file/W9GhJmXJNOZsvA7kcEqOlc/Move.it-1.0-Copy)
+* [Figma (versão 2.0)](https://www.figma.com/file/DfJf2tpmWubSdBKgXcZarA/Move.it-2.0-(Copy))
 
 ---
 # :snowflake: Tecnologias
