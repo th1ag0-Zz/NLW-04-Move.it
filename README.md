@@ -17,8 +17,11 @@
 <p align="center">
   <img src="./.github/desktop-1.png" />
   <img src="./.github/desktop-2.png" />
-  <img src="./.github/mobile-1.png" width="45.12%" />
-  <img src="./.github/mobile-2.png" width="45%" />
+  </br>
+  </br>
+  <img src="./.github/mobile-1.png" width="40.12%" />
+  <span></span>
+  <img src="./.github/mobile-2.png" width="40%" />
 </p>
 
 # :pushpin: Tabela de conteúdos
