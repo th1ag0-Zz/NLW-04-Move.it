@@ -12,6 +12,7 @@ import { CountdownProvider } from '../contexts/CountdownContext';
 
 import styles from '../styles/pages/Home.module.css';
 import { ChallengesProvider } from '../contexts/ChallengesContext';
+import { UserGithubLogin } from '../components/UserGithubLogin';
 
 interface HomeProps {
   level: number
@@ -21,35 +22,38 @@ interface HomeProps {
 
 export default function Home(props: HomeProps) {
   return (
-    <ChallengesProvider
-      level={props.level}
-      currentExperience={props.currentExperience}
-      challengesCompleted={props.challengesCompleted}
-    >
-      <div className={styles.container}>
 
-        <Head>
-          <title>Início | move.it</title>
-        </Head>
+    <UserGithubLogin />
 
-        <ExperienceBar />
+    // <ChallengesProvider
+    //   level={props.level}
+    //   currentExperience={props.currentExperience}
+    //   challengesCompleted={props.challengesCompleted}
+    // >
+    //   <div className={styles.container}>
 
-        <CountdownProvider>
-          <section>
-            <div className="">
-              <Profile />
-              <CompletedChallenges />
-              <Countdown />
-            </div>
+    //     <Head>
+    //       <title>Início | move.it</title>
+    //     </Head>
 
-            <div>
-              <ChallengeBox />
-            </div>
-          </section>
-        </CountdownProvider>
+    //     <ExperienceBar />
+
+    //     <CountdownProvider>
+    //       <section>
+    //         <div className="">
+    //           <Profile />
+    //           <CompletedChallenges />
+    //           <Countdown />
+    //         </div>
+
+    //         <div>
+    //           <ChallengeBox />
+    //         </div>
+    //       </section>
+    //     </CountdownProvider>
         
-      </div>
-    </ChallengesProvider>
+    //   </div>
+    // </ChallengesProvider>
   )
 }
 
