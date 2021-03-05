@@ -4,4 +4,74 @@
   width: 100vw;
   background: var(--blue) url('/home-logo.svg') no-repeat;
   background-position: left top;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.box_login {
+  margin-right: 12%;
+}
+
+.box_login > img {
+  width: 22.5rem;
+  margin-bottom: 6rem;
+}
+
+.box_login > h1 {
+  color: var(--white);
+  font-size: 2.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.box_login > p {
+  display: flex;
+  color: var(--text-highlight);
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+  font-weight: 500;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.box_login > p > img {
+  width: 2.5rem;
+  margin-right: 1rem;
+}
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  width: 26.25rem;
+}
+
+.formContainer input {
+  flex: 1;
+  height: 5rem;
+  padding-left: 1.8rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  border: 0;
+  background: linear-gradient(to right, rgba(73, 83, 184, 1), rgba(73, 83, 184, 0.2));
+  color: #fff;
+  border-radius: 5px 0 0 5px;
+}
+
+.formContainer input::placeholder {
+  color: #B2B9FF;
+}
+
+.formContainer button {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--blue-dark);
+  border: 0;
+  border-radius: 0 5px 5px 0;
+}
+
+.formContainer button img {
+  width: 1.5rem;
 }
